@@ -1,0 +1,758 @@
+13:41:44 **** Build of configuration Debug for project Client ****
+make all 
+Building file: ../src/ClientLinker.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils" -I"/home/user/Desktop/The project/Server" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClientLinker.d" -MT"src/ClientLinker.d" -o "src/ClientLinker.o" "../src/ClientLinker.cpp"
+In file included from ../src/ClientLinker.cpp:1:0:
+../src/ClientLinker.h:5:21: fatal error: MThread.h: No such file or directory
+compilation terminated.
+make: *** [src/ClientLinker.o] Error 1
+13:41:46 **** Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/ChatRoom.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ChatRoom.d" -MT"src/ChatRoom.d" -o "src/ChatRoom.o" "../src/ChatRoom.cpp"
+In file included from ../src/ChatRoom.h:4:0,
+                 from ../src/ChatRoom.cpp:1:
+../src/User.h:4:23: fatal error: TCPSocket.h: No such file or directory
+compilation terminated.
+make: *** [src/ChatRoom.o] Error 1
+13:41:47 **** Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building file: ../src/MultipleTCPSocketListener.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MultipleTCPSocketListener.d" -MT"src/MultipleTCPSocketListener.d" -o "src/MultipleTCPSocketListener.o" "../src/MultipleTCPSocketListener.cpp"
+../src/MultipleTCPSocketListener.cpp:3:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/MultipleTCPSocketListener.o] Error 1
+13:43:35 **** Clean-only build of configuration Debug for project Client ****
+make clean 
+rm -rf  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o  ./src/ClientLinker.d ./src/ClientManager.d ./src/main.d  Client
+ 
+13:43:35 **** Clean-only build of configuration Debug for project Server ****
+make clean 
+rm -rf  ./src/ChatRoom.o ./src/Login.o ./src/ServerManager.o ./src/User.o ./src/main.o  ./src/ChatRoom.d ./src/Login.d ./src/ServerManager.d ./src/User.d ./src/main.d  Server
+ 
+13:43:35 **** Clean-only build of configuration Debug for project SocketUtils ****
+make clean 
+rm -rf  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPMessengerProtocol.o ./src/TCPSocket.o ./src/UDPSocket.o  ./src/MThread.d ./src/MultipleTCPSocketListener.d ./src/TCPMessengerProtocol.d ./src/TCPSocket.d ./src/UDPSocket.d  SocketUtils
+ 
+13:43:36 **** Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building file: ../src/MultipleTCPSocketListener.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MultipleTCPSocketListener.d" -MT"src/MultipleTCPSocketListener.d" -o "src/MultipleTCPSocketListener.o" "../src/MultipleTCPSocketListener.cpp"
+../src/MultipleTCPSocketListener.cpp:3:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/MultipleTCPSocketListener.o] Error 1
+13:43:38 **** Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/ChatRoom.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ChatRoom.d" -MT"src/ChatRoom.d" -o "src/ChatRoom.o" "../src/ChatRoom.cpp"
+Finished building: ../src/ChatRoom.cpp
+ 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:8:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/Login.o] Error 1
+13:43:40 **** Build of configuration Debug for project Client ****
+make all 
+Building file: ../src/ClientLinker.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClientLinker.d" -MT"src/ClientLinker.d" -o "src/ClientLinker.o" "../src/ClientLinker.cpp"
+Finished building: ../src/ClientLinker.cpp
+ 
+Building file: ../src/ClientManager.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClientManager.d" -MT"src/ClientManager.d" -o "src/ClientManager.o" "../src/ClientManager.cpp"
+Finished building: ../src/ClientManager.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:44:40 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MultipleTCPSocketListener.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MultipleTCPSocketListener.d" -MT"src/MultipleTCPSocketListener.d" -o "src/MultipleTCPSocketListener.o" "../src/MultipleTCPSocketListener.cpp"
+../src/MultipleTCPSocketListener.cpp:3:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/MultipleTCPSocketListener.o] Error 1
+13:44:41 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:8:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/Login.o] Error 1
+13:44:42 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:44:54 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MultipleTCPSocketListener.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MultipleTCPSocketListener.d" -MT"src/MultipleTCPSocketListener.d" -o "src/MultipleTCPSocketListener.o" "../src/MultipleTCPSocketListener.cpp"
+Finished building: ../src/MultipleTCPSocketListener.cpp
+ 
+Building file: ../src/TCPMessengerProtocol.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPMessengerProtocol.d" -MT"src/TCPMessengerProtocol.d" -o "src/TCPMessengerProtocol.o" "../src/TCPMessengerProtocol.cpp"
+../src/TCPMessengerProtocol.cpp:12:1: error: ‘TCPMessengerProtocol’ does not name a type
+../src/TCPMessengerProtocol.cpp:17:1: error: ‘TCPMessengerProtocol’ does not name a type
+make: *** [src/TCPMessengerProtocol.o] Error 1
+13:44:56 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:8:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/Login.o] Error 1
+13:44:57 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:45:25 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/TCPSocket.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPSocket.d" -MT"src/TCPSocket.d" -o "src/TCPSocket.o" "../src/TCPSocket.cpp"
+Finished building: ../src/TCPSocket.cpp
+ 
+Building file: ../src/UDPSocket.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UDPSocket.d" -MT"src/UDPSocket.d" -o "src/UDPSocket.o" "../src/UDPSocket.cpp"
+Finished building: ../src/UDPSocket.cpp
+ 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:21: undefined reference to `pthread_create'
+./src/MThread.o: In function `MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:27: undefined reference to `pthread_join'
+./src/MThread.o: In function `MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:35: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:45:27 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:8:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/Login.o] Error 1
+13:45:28 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:51:01 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:21: undefined reference to `pthread_create'
+./src/MThread.o: In function `MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:27: undefined reference to `pthread_join'
+./src/MThread.o: In function `MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:35: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:51:02 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:8:40: fatal error: MultipleTCPSocketsListener.h: No such file or directory
+compilation terminated.
+make: *** [src/Login.o] Error 1
+13:51:03 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:51:29 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:21: undefined reference to `pthread_create'
+./src/MThread.o: In function `MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:27: undefined reference to `pthread_join'
+./src/MThread.o: In function `MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:35: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:51:30 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.cpp: In member function ‘virtual void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+make: *** [src/Login.o] Error 1
+13:51:31 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:52:33 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+../src/MThread.cpp:13:17: error: ‘npl’ is not a namespace-name
+../src/MThread.cpp:13:20: error: expected namespace-name before ‘;’ token
+make: *** [src/MThread.o] Error 1
+13:52:34 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.cpp: In member function ‘virtual void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+make: *** [src/Login.o] Error 1
+13:52:36 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:52:55 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:23: undefined reference to `pthread_create'
+./src/MThread.o: In function `MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:29: undefined reference to `pthread_join'
+./src/MThread.o: In function `MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:37: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:52:56 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.cpp: In member function ‘virtual void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+make: *** [src/Login.o] Error 1
+13:52:57 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:53:00 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+../src/MThread.cpp:13:17: error: ‘npl’ is not a namespace-name
+../src/MThread.cpp:13:20: error: expected namespace-name before ‘;’ token
+make: *** [src/MThread.o] Error 1
+13:53:01 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.cpp: In member function ‘virtual void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+make: *** [src/Login.o] Error 1
+13:53:03 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:53:56 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `npl::MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:23: undefined reference to `pthread_create'
+./src/MThread.o: In function `npl::MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:29: undefined reference to `pthread_join'
+./src/MThread.o: In function `npl::MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:37: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:53:57 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:13:37: error: expected class-name before ‘{’ token
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:14:29: error: expected class-name before ‘{’ token
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.h:36:1: error: expected class-name before ‘{’ token
+../src/Login.cpp: In constructor ‘Login::Login(ServerManager*)’:
+../src/Login.cpp:8:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In member function ‘void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+../src/Login.cpp: In destructor ‘virtual Login::~Login()’:
+../src/Login.cpp:75:16: error: ‘waitForThread’ was not declared in this scope
+../src/Login.cpp: In constructor ‘Connection::Connection(Login*)’:
+../src/Login.cpp:140:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In destructor ‘virtual Connection::~Connection()’:
+../src/Login.cpp:162:16: error: ‘waitForThread’ was not declared in this scope
+make: *** [src/Login.o] Error 1
+13:53:59 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:54:02 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `npl::MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:23: undefined reference to `pthread_create'
+./src/MThread.o: In function `npl::MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:29: undefined reference to `pthread_join'
+./src/MThread.o: In function `npl::MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:37: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:54:03 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:13:37: error: expected class-name before ‘{’ token
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:14:29: error: expected class-name before ‘{’ token
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.h:36:1: error: expected class-name before ‘{’ token
+../src/Login.cpp: In constructor ‘Login::Login(ServerManager*)’:
+../src/Login.cpp:8:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In member function ‘void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+../src/Login.cpp: In destructor ‘virtual Login::~Login()’:
+../src/Login.cpp:75:16: error: ‘waitForThread’ was not declared in this scope
+../src/Login.cpp: In constructor ‘Connection::Connection(Login*)’:
+../src/Login.cpp:140:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In destructor ‘virtual Connection::~Connection()’:
+../src/Login.cpp:162:16: error: ‘waitForThread’ was not declared in this scope
+make: *** [src/Login.o] Error 1
+13:54:04 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:55:31 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+../src/MThread.cpp: In member function ‘void npl::MThread::start()’:
+../src/MThread.cpp:23:51: error: expected ‘;’ before ‘)’ token
+make: *** [src/MThread.o] Error 1
+13:55:32 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:13:37: error: expected class-name before ‘{’ token
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:14:29: error: expected class-name before ‘{’ token
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.h:36:1: error: expected class-name before ‘{’ token
+../src/Login.cpp: In constructor ‘Login::Login(ServerManager*)’:
+../src/Login.cpp:8:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In member function ‘void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+../src/Login.cpp: In destructor ‘virtual Login::~Login()’:
+../src/Login.cpp:75:16: error: ‘waitForThread’ was not declared in this scope
+../src/Login.cpp: In constructor ‘Connection::Connection(Login*)’:
+../src/Login.cpp:140:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In destructor ‘virtual Connection::~Connection()’:
+../src/Login.cpp:162:16: error: ‘waitForThread’ was not declared in this scope
+make: *** [src/Login.o] Error 1
+13:55:33 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:55:44 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/Server" -I"/home/user/Desktop/The project/Client" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `npl::MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:23: undefined reference to `pthread_create'
+./src/MThread.o: In function `npl::MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:29: undefined reference to `pthread_join'
+./src/MThread.o: In function `npl::MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:37: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:55:45 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:13:37: error: expected class-name before ‘{’ token
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:14:29: error: expected class-name before ‘{’ token
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.h:36:1: error: expected class-name before ‘{’ token
+../src/Login.cpp: In constructor ‘Login::Login(ServerManager*)’:
+../src/Login.cpp:8:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In member function ‘void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+../src/Login.cpp: In destructor ‘virtual Login::~Login()’:
+../src/Login.cpp:75:16: error: ‘waitForThread’ was not declared in this scope
+../src/Login.cpp: In constructor ‘Connection::Connection(Login*)’:
+../src/Login.cpp:140:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In destructor ‘virtual Connection::~Connection()’:
+../src/Login.cpp:162:16: error: ‘waitForThread’ was not declared in this scope
+make: *** [src/Login.o] Error 1
+13:55:47 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:56:26 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building file: ../src/MultipleTCPSocketListener.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MultipleTCPSocketListener.d" -MT"src/MultipleTCPSocketListener.d" -o "src/MultipleTCPSocketListener.o" "../src/MultipleTCPSocketListener.cpp"
+Finished building: ../src/MultipleTCPSocketListener.cpp
+ 
+Building file: ../src/TCPSocket.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPSocket.d" -MT"src/TCPSocket.d" -o "src/TCPSocket.o" "../src/TCPSocket.cpp"
+Finished building: ../src/TCPSocket.cpp
+ 
+Building file: ../src/UDPSocket.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UDPSocket.d" -MT"src/UDPSocket.d" -o "src/UDPSocket.o" "../src/UDPSocket.cpp"
+Finished building: ../src/UDPSocket.cpp
+ 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `npl::MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:23: undefined reference to `pthread_create'
+./src/MThread.o: In function `npl::MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:29: undefined reference to `pthread_join'
+./src/MThread.o: In function `npl::MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:37: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:56:29 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:13:37: error: expected class-name before ‘{’ token
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:14:29: error: expected class-name before ‘{’ token
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.h:36:1: error: expected class-name before ‘{’ token
+../src/Login.cpp: In constructor ‘Login::Login(ServerManager*)’:
+../src/Login.cpp:8:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In member function ‘void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+../src/Login.cpp: In destructor ‘virtual Login::~Login()’:
+../src/Login.cpp:75:16: error: ‘waitForThread’ was not declared in this scope
+../src/Login.cpp: In constructor ‘Connection::Connection(Login*)’:
+../src/Login.cpp:140:8: error: ‘start’ was not declared in this scope
+../src/Login.cpp: In destructor ‘virtual Connection::~Connection()’:
+../src/Login.cpp:162:16: error: ‘waitForThread’ was not declared in this scope
+make: *** [src/Login.o] Error 1
+13:56:30 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+/usr/bin/ld: cannot find -lSocketUtils
+Invoking: GCC C++ Linker
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+13:57:23 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.d" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:21: undefined reference to `pthread_create'
+./src/MThread.o: In function `MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:27: undefined reference to `pthread_join'
+./src/MThread.o: In function `MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:35: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:57:24 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.cpp: In member function ‘virtual void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+make: *** [src/Login.o] Error 1
+13:57:26 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+13:57:30 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:21: undefined reference to `pthread_create'
+./src/MThread.o: In function `MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:27: undefined reference to `pthread_join'
+./src/MThread.o: In function `MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:35: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+13:57:30 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.cpp: In member function ‘virtual void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+make: *** [src/Login.o] Error 1
+13:57:32 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1

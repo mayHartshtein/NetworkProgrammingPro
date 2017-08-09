@@ -1,0 +1,21 @@
+/*
+ * Login.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef LOGIN_H_
+#define LOGIN_H_
+
+namespace std {
+
+class Login {
+public:
+	Login();
+	virtual ~Login();
+};
+
+} /* namespace std */
+
+#endif /* LOGIN_H_ */

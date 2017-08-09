@@ -1,0 +1,21 @@
+/*
+ * ServerManager.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef SERVERMANAGER_H_
+#define SERVERMANAGER_H_
+
+namespace std {
+
+class ServerManager {
+public:
+	ServerManager();
+	virtual ~ServerManager();
+};
+
+} /* namespace std */
+
+#endif /* SERVERMANAGER_H_ */

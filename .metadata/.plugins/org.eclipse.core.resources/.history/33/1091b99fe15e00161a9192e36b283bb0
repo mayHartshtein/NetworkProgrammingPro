@@ -1,0 +1,21 @@
+/*
+ * ClientManager.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef CLIENTMANAGER_H_
+#define CLIENTMANAGER_H_
+
+namespace std {
+
+class ClientManager {
+public:
+	ClientManager();
+	virtual ~ClientManager();
+};
+
+} /* namespace std */
+
+#endif /* CLIENTMANAGER_H_ */

@@ -1,0 +1,21 @@
+/*
+ * MultipleTCPSocketListener.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef MULTIPLETCPSOCKETLISTENER_H_
+#define MULTIPLETCPSOCKETLISTENER_H_
+
+namespace std {
+
+class MultipleTCPSocketListener {
+public:
+	MultipleTCPSocketListener();
+	virtual ~MultipleTCPSocketListener();
+};
+
+} /* namespace std */
+
+#endif /* MULTIPLETCPSOCKETLISTENER_H_ */

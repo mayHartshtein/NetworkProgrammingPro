@@ -1,0 +1,21 @@
+/*
+ * Login.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "Login.h"
+
+namespace std {
+
+Login::Login() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Login::~Login() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

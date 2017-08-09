@@ -1,0 +1,21 @@
+/*
+ * ChatRoom.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef CHATROOM_H_
+#define CHATROOM_H_
+
+namespace std {
+
+class ChatRoom {
+public:
+	ChatRoom();
+	virtual ~ChatRoom();
+};
+
+} /* namespace std */
+
+#endif /* CHATROOM_H_ */

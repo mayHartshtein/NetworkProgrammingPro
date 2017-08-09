@@ -1,0 +1,21 @@
+/*
+ * TCPMessengerProtocol.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef TCPMESSENGERPROTOCOL_H_
+#define TCPMESSENGERPROTOCOL_H_
+
+namespace std {
+
+class TCPMessengerProtocol {
+public:
+	TCPMessengerProtocol();
+	virtual ~TCPMessengerProtocol();
+};
+
+} /* namespace std */
+
+#endif /* TCPMESSENGERPROTOCOL_H_ */

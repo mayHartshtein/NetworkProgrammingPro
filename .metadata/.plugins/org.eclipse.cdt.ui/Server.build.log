@@ -1,0 +1,21 @@
+13:57:30 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../src/Login.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Desktop/The project/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Login.d" -MT"src/Login.d" -o "src/Login.o" "../src/Login.cpp"
+In file included from ../src/Login.h:10:0,
+                 from ../src/Login.cpp:1:
+../src/ServerManager.h:14:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+In file included from ../src/Login.cpp:1:0:
+../src/Login.h:15:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+../src/Login.cpp: In member function ‘virtual void Login::run()’:
+../src/Login.cpp:24:29: error: no matching function for call to ‘MultipleTCPSocketsListener::addSockets(std::map<std::basic_string<char>, TCPSocket*>&)’
+../src/Login.cpp:24:29: note: candidate is:
+In file included from ../src/Login.h:8:0,
+                 from ../src/Login.cpp:1:
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note: void MultipleTCPSocketsListener::addSockets(std::vector<TCPSocket*>)
+/home/user/Desktop/The project/SocketUtils/src/MultipleTCPSocketListener.h:32:7: note:   no known conversion for argument 1 from ‘std::map<std::basic_string<char>, TCPSocket*>’ to ‘std::vector<TCPSocket*>’
+make: *** [src/Login.o] Error 1
+
+13:57:31 Build Finished (took 1s.27ms)
+

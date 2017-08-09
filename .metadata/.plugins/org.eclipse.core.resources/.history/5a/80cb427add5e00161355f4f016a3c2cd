@@ -1,0 +1,17 @@
+/*
+ * TCPSocket.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef TCPSOCKET_H_
+#define TCPSOCKET_H_
+
+class TCPSocket {
+public:
+	TCPSocket();
+	virtual ~TCPSocket();
+};
+
+#endif /* TCPSOCKET_H_ */

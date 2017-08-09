@@ -1,0 +1,21 @@
+/*
+ * MultipleTCPSocketListener.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "MultipleTCPSocketListener.h"
+
+namespace std {
+
+MultipleTCPSocketListener::MultipleTCPSocketListener() {
+	// TODO Auto-generated constructor stub
+
+}
+
+MultipleTCPSocketListener::~MultipleTCPSocketListener() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

@@ -1,0 +1,21 @@
+/*
+ * UDPSocket.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef UDPSOCKET_H_
+#define UDPSOCKET_H_
+
+namespace std {
+
+class UDPSocket {
+public:
+	UDPSocket();
+	virtual ~UDPSocket();
+};
+
+} /* namespace std */
+
+#endif /* UDPSOCKET_H_ */

@@ -1,0 +1,21 @@
+/*
+ * ClientLinker.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef CLIENTLINKER_H_
+#define CLIENTLINKER_H_
+
+namespace std {
+
+class ClientLinker {
+public:
+	ClientLinker();
+	virtual ~ClientLinker();
+};
+
+} /* namespace std */
+
+#endif /* CLIENTLINKER_H_ */

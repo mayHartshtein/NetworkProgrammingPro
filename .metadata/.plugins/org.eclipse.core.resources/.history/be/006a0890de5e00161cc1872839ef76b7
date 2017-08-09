@@ -1,0 +1,21 @@
+/*
+ * MThread.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef MTHREAD_H_
+#define MTHREAD_H_
+
+namespace std {
+
+class MThread {
+public:
+	MThread();
+	virtual ~MThread();
+};
+
+} /* namespace std */
+
+#endif /* MTHREAD_H_ */

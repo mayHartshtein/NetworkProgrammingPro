@@ -1,0 +1,21 @@
+/*
+ * ServerManager.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "ServerManager.h"
+
+namespace std {
+
+ServerManager::ServerManager() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ServerManager::~ServerManager() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

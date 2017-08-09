@@ -1,0 +1,18 @@
+/*
+ * main.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+namespace std {
+
+class main {
+};
+
+} /* namespace std */
+
+#endif /* MAIN_H_ */

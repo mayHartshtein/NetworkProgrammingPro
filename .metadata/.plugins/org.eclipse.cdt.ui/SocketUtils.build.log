@@ -1,0 +1,19 @@
+13:57:30 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+Building target: SocketUtils
+Invoking: GCC C++ Linker
+g++  -o "SocketUtils"  ./src/MThread.o ./src/MultipleTCPSocketListener.o ./src/TCPSocket.o ./src/UDPSocket.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./src/MThread.o: In function `MThread::start()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:21: undefined reference to `pthread_create'
+./src/MThread.o: In function `MThread::waitForThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:27: undefined reference to `pthread_join'
+./src/MThread.o: In function `MThread::~MThread()':
+/home/user/Desktop/The project/SocketUtils/Debug/../src/MThread.cpp:35: undefined reference to `pthread_cancel'
+./src/TCPSocket.o:(.rodata+0x68): undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [SocketUtils] Error 1
+
+13:57:30 Build Finished (took 163ms)
+

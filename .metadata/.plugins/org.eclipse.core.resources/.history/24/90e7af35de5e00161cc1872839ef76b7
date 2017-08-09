@@ -1,0 +1,21 @@
+/*
+ * UDPSocket.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "UDPSocket.h"
+
+namespace std {
+
+UDPSocket::UDPSocket() {
+	// TODO Auto-generated constructor stub
+
+}
+
+UDPSocket::~UDPSocket() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

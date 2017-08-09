@@ -1,0 +1,12 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "main.h"
+
+namespace std {
+
+} /* namespace std */

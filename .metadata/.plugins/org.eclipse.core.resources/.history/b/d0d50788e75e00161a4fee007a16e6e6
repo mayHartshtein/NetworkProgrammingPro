@@ -1,0 +1,21 @@
+/*
+ * TCPMessengerProtocol.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "TCPMessengerProtocol.h"
+
+namespace std {
+
+TCPMessengerProtocol::TCPMessengerProtocol() {
+	// TODO Auto-generated constructor stub
+
+}
+
+TCPMessengerProtocol::~TCPMessengerProtocol() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

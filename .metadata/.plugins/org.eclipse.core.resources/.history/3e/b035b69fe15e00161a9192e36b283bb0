@@ -1,0 +1,21 @@
+/*
+ * ClientManager.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "ClientManager.h"
+
+namespace std {
+
+ClientManager::ClientManager() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ClientManager::~ClientManager() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

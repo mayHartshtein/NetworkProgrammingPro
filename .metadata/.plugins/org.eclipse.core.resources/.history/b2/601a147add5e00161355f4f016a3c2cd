@@ -1,0 +1,18 @@
+/*
+ * TCPSocket.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "TCPSocket.h"
+
+TCPSocket::TCPSocket() {
+	// TODO Auto-generated constructor stub
+
+}
+
+TCPSocket::~TCPSocket() {
+	// TODO Auto-generated destructor stub
+}
+

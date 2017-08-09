@@ -1,0 +1,21 @@
+/*
+ * ClientLinker.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "ClientLinker.h"
+
+namespace std {
+
+ClientLinker::ClientLinker() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ClientLinker::~ClientLinker() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

@@ -1,0 +1,11 @@
+13:57:32 **** Incremental Build of configuration Debug for project Client ****
+make all 
+Building target: Client
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Desktop/The project/SocketUtils/Debug" -o "Client"  ./src/ClientLinker.o ./src/ClientManager.o ./src/main.o   -lSocketUtils -lpthread
+/usr/bin/ld: cannot find -lSocketUtils
+collect2: error: ld returned 1 exit status
+make: *** [Client] Error 1
+
+13:57:32 Build Finished (took 228ms)
+

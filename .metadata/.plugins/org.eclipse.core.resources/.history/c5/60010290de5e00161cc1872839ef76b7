@@ -1,0 +1,21 @@
+/*
+ * MThread.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "MThread.h"
+
+namespace std {
+
+MThread::MThread() {
+	// TODO Auto-generated constructor stub
+
+}
+
+MThread::~MThread() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

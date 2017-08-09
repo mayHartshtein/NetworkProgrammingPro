@@ -1,0 +1,21 @@
+/*
+ * ChatRoom.cpp
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: user
+ */
+
+#include "ChatRoom.h"
+
+namespace std {
+
+ChatRoom::ChatRoom() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ChatRoom::~ChatRoom() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */
